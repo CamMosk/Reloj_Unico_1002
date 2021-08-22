@@ -1,0 +1,8 @@
+k = 0
+
+def setup() :
+    size(300, 600)
+
+def draw() :
+    global k
+    background(175)
