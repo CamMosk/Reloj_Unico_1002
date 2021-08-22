@@ -24,4 +24,12 @@ def draw() :
         k = 0
     else:
         k = map(second(), 0, 59, 0, height)
-         
+
+
+
+    ellipse(width/ 2, k, 50, 50)
+    fill(255)
+    if k > height :
+        k = 0
+    else:
+        k = map(hour(), 0, 24, 0, height)    
