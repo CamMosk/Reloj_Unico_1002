@@ -14,3 +14,14 @@ def draw() :
         k = 0
     else:
         k = map(minute(), 0, 60, 0, height)
+
+
+
+
+     ellipse(width/ 2, k, 50, 50)
+    fill(0, 0, 0)
+    if k > height :
+        k = 0
+    else:
+        k = map(second(), 0, 59, 0, height)
+         
