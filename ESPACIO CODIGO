@@ -6,3 +6,11 @@ def setup() :
 def draw() :
     global k
     background(175)
+
+
+    ellipse(width/ 2, k, 50, 50)
+    fill(232, 5, 24)
+    if k > height :
+        k = 0
+    else:
+        k = map(minute(), 0, 60, 0, height)
