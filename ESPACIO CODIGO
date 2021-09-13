@@ -18,7 +18,7 @@ def draw() :
 
 
 
-     ellipse(width/ 2, k, 50, 50)
+    ellipse(width/ 2, k, 50, 50)
     fill(0, 0, 0)
     if k > height :
         k = 0
